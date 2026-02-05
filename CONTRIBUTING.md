@@ -43,6 +43,17 @@ fix(auth): resolve token refresh race condition
 docs(api): update authentication guide
 ```
 
+### Commit Template
+
+A `.gitmessage` template is available in this repository. To use it, configure Git
+to load it automatically:
+
+```bash
+git config commit.template .gitmessage
+```
+
+This provides type prompts and formatting reminders each time you commit.
+
 ## Pull Request Process
 
 1. **Keep PRs focused** -- one logical change per PR
@@ -71,6 +82,12 @@ docs(api): update authentication guide
 - Ensure existing tests pass
 - Keep code DRY but don't over-abstract
 
+## AI-Assisted Development
+
+When using AI coding agents, follow the guidelines in [AGENTS.md](AGENTS.md).
+Include a `Co-Authored-By` trailer in commits where AI assisted with the changes.
+
 ## Questions?
 
-See [SUPPORT.md](SUPPORT.md) for how to get help.
+See [SUPPORT.md](SUPPORT.md) for how to get help, and
+[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for community standards.

@@ -1,0 +1,12 @@
+# <type>: <subject>
+#
+# Types: feat, fix, docs, style, refactor, test, chore
+#
+# Example: feat: add user authentication flow
+#
+# Body (optional): Explain what and why, not how
+#
+
+# Ticket (optional): JIRA-123 or closes #123
+
+# Co-Authored-By: Name <email> (for pair programming or AI assistance)
