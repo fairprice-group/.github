@@ -1,4 +1,4 @@
-name: Workflow Security (Static Analysis)
+name: Workflow Security (zizmor)
 
 permissions: {}
 
@@ -7,7 +7,7 @@ on:
   merge_group:
 
 jobs:
-  workflow-analysis:
+  zizmor:
     runs-on: ubuntu-latest
     permissions:
       contents: read
